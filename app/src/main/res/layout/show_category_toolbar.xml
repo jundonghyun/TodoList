@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/show_category_toolbar"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:minHeight="?attr/actionBarSize"
+    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    android:orientation="horizontal"
+    android:background="@color/appTitleColor">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_gravity='center'
+        android:text="옷 종류"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+
+</androidx.appcompat.widget.Toolbar>
